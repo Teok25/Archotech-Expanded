@@ -9,9 +9,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
     </graphicData>
-	<comps>
-			<li Class="HediffCompProperties_HealPermanentWounds" />
-		</comps>
     <thingSetMakerTags>
       <li>RewardSpecial</li>
     </thingSetMakerTags>

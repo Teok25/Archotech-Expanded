@@ -12,6 +12,9 @@
     <defName>ArchotechBrainMelder</defName>
     <label>archotech brain melder</label>
     <labelNoun>an archotech brain melder</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_HealPermanentWounds" />
+		</comps>
     <stages>
       <li>
 		<painFactor>0</painFactor>
