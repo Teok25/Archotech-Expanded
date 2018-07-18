@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallArchotechDenture</defName>
+    <label>install archotech denture</label>
+    <description>Install an archotech denture.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing archotech denture.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechDenture</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>ArchotechDenture</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechDenture</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallArchotechHeart</defName>
+    <label>install archotech heart</label>
+    <description>Install an archotech heart.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing archotech heart.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechHeart</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>ArchotechHeart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechHeart</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallArchotechLung</defName>
+    <label>install archotech lung</label>
+    <description>Install an archotech lung.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing archotech lung.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechLung</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>ArchotechLung</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Lung</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechLung</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallArchotechStomach</defName>
+    <label>install archotech stomach</label>
+    <description>Install an archotech stomach.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing archotech stomach.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechStomach</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>ArchotechStomach</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechStomach</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallArchotechLiver</defName>
+    <label>install archotech liver</label>
+    <description>Install an archotech liver.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing archotech liver.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechLiver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>ArchotechLiver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Liver</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechLiver</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallArchotechKidney</defName>
+    <label>install archotech kidney</label>
+    <description>Install an archotech kidney.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing archotech kidney.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechKidney</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>ArchotechKidney</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Kidney</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechKidney</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallArchotechEar</defName>
+    <label>install archotech ear</label>
+    <description>Install an archotech ear.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing archotech ear.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechEar</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>ArchotechEar</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechEar</addsHediff>
+  </RecipeDef>
+<RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallArchotechDeathClaw</defName>
+    <label>install archotech death claw</label>
+    <description>Install an archotech destroyer of worlds.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing archotech machine of destruction.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechDeathClaw</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>ArchotechDeathClaw</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Shoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechDeathClaw</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallArchotechBrainMelder</defName>
+		<label>install archotech brain melder</label>
+		<description>Install an archotech brain melder.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing archotech brain melder.</jobString>
+		<workAmount>3700</workAmount>
+		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ArchotechBrainMelder</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ArchotechBrainMelder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ArchotechBrainMelder</addsHediff>
+	</RecipeDef>
+	<RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallAdvancedArchotechLeg</defName>
+    <label>install advanced archotech leg</label>
+    <description>Install an advanced archotech leg.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing advanced archotech leg.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AdvancedArchotechLeg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>AdvancedArchotechLeg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>AdvancedArchotechLeg</addsHediff>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ImplantBase">
+    <defName>ArchotechBrainMelder</defName>
+    <label>archotech brain melder</label>
+    <description>A brain implant that removes pain, increases happiness, and increases conciousness, built by an archotech. It is unknown how this works, however historians seem to believe it to be the fall of the Archotechs.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+	<comps>
+			<li Class="HediffCompProperties_HealPermanentWounds" />
+		</comps>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MarketValue>8000</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Archotech</li>
+    </techHediffsTags>
+  </ThingDef>
+  </Defs>
