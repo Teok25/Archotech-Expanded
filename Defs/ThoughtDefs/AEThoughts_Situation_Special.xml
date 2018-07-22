@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThoughtDef>
+    <defName>ArchotechBrainMelder</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>ArchotechBrainMelder</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Brain Melder</label>
+        <description>Holy God.</description>
+        <baseMoodEffect>35</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+ </Defs>

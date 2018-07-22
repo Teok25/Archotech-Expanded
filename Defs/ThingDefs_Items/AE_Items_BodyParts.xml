@@ -94,7 +94,7 @@
 	<ThingDef ParentName="BodyPartArchotechBase">
     <defName>ArchotechDeathClaw</defName>
     <label>archotech death claw</label>
-    <description>An artificial death machine built by an archotech. Once installed, suddenly enemies stop screaming. With this sudden power you could tear down nations, or villages. Its internal workings are a mystery to all human minds.</description>
+    <description>An artificial death machine built by an archotech. Once installed, suddenly enemies can't stop screaming. With this sudden power you could tear down nations, or villages. Its internal workings are a mystery to all human minds.</description>
     <techLevel>Archotech</techLevel>
     <thingSetMakerTags>
       <li>RewardSpecial</li>
@@ -117,6 +117,30 @@
       <Mass>0.4</Mass>
 	 </statBases>
   </ThingDef>
-
-
+	<ThingDef ParentName="BodyPartArchotechBase">
+	<defName>AdvancedArchotechArm</defName>
+    <label>advanced archotech arm</label>
+    <description>An advanced version of the archotech's artificial arm. It somehow makes you manipulate faster than an aircraft. Gotta go fast. Its internal workings are a mystery to all human minds.</description>
+    <techLevel>Archotech</techLevel>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MarketValue>20000</MarketValue>
+      <Mass>0.4</Mass>
+	 </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArchotechBase">
+    <defName>ArchotechObliterator</defName>
+    <label>archotech obliterator</label>
+    <description>An artificial death machine built by an archotech. Once installed, suddenly enemies can't stop screaming. With this sudden power you could tear down nations, or villages. Its internal workings are a mystery to all human minds.</description>
+    <techLevel>Archotech</techLevel>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MarketValue>21000</MarketValue>
+      <Mass>0.4</Mass>
+    </statBases>
+    </ThingDef>
   </Defs>
