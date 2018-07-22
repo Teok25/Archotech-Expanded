@@ -10,17 +10,17 @@ If there are any problems or suggestions that you would like to add, just commen
 
 What does this add specifically?
 Adds these new implants into the game, randomly generated the same way any archotech item is:
-Archotech Ears
-Archotech Stomach
-Archotech Liver
-Archotech Kidneys
-Archotech Lungs
-Archotech Heart
-Advanced Archotech Legs (See below)
-Advanced Archotech Arms (See below)
-Archotech Death Claw (See below)
-Archotech Obliterator (See Below
-Archotech Brain Melder (See below)
+  Archotech Ears
+  Archotech Stomach
+  Archotech Liver
+  Archotech Kidneys
+  Archotech Lungs
+  Archotech Heart
+  Advanced Archotech Legs (See below)
+  Advanced Archotech Arms (See below)
+  Archotech Death Claw (See below)
+  Archotech Obliterator (See Below
+  Archotech Brain Melder (See below)
 
 All these increase the stats of said part by the archotech equivalent.
 
