@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_Attomachine</defName>
+  </DesignatorDropdownGroupDef>
+  
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_Picomachine</defName>
+  </DesignatorDropdownGroupDef>
+  
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_Nanomachine</defName>
+  </DesignatorDropdownGroupDef>
+  </Defs>

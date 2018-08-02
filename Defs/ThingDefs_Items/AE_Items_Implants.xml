@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ImplantBase">
+    <defName>ArchotechBrainMelder</defName>
+    <label>archotech brain melder</label>
+    <description>An impressive feat of medical engineering using attomachines. These leak from the main hub into the bloodstream which constantly heal any long term scars. However, the main control hub for these attomachines resides in the Parietal lobe and parts of the Cerebellum, removing the subject's sense of pain, while overall increasing conciousness and happiness. Further study of the device finds contradictions in the laws of quantumn physics as well as a high probability of artificial sentience residing within. It's workings are near-impossible for the human mind to concieve.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MarketValue>8000</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Archotech</li>
+    </techHediffsTags>
+  </ThingDef>
+  </Defs>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Added body parts -->
+    
+	<HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechDenture</defName>
+    <label>archotech denture</label>
+    <labelNoun>an archotech denture</labelNoun>
+    <spawnThingOnRemoved>ArchotechDenture</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechHeart</defName>
+    <label>archotech heart</label>
+    <labelNoun>an archotech heart</labelNoun>
+    <spawnThingOnRemoved>ArchotechHeart</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechLung</defName>
+    <label>archotech lung</label>
+    <labelNoun>an archotech lung</labelNoun>
+    <spawnThingOnRemoved>ArchotechLung</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechStomach</defName>
+    <label>archotech stomach</label>
+    <labelNoun>an archotech stomach</labelNoun>
+    <spawnThingOnRemoved>ArchotechStomach</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechLiver</defName>
+    <label>archotech liver</label>
+    <labelNoun>an archotech liver</labelNoun>
+    <spawnThingOnRemoved>ArchotechLiver</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechKidney</defName>
+    <label>archotech kidney</label>
+    <labelNoun>an archotech kidney</labelNoun>
+    <spawnThingOnRemoved>ArchotechKidney</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechEar</defName>
+    <label>archotech ear</label>
+    <labelNoun>an archotech ear</labelNoun>
+    <spawnThingOnRemoved>ArchotechEar</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechDeathClaw</defName>
+    <label>archotech death claw</label>
+    <labelNoun>an archotech death claw</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>claw</label>
+            <capacities>
+              <li>Scratch</li>
+            </capacities>
+            <power>30.0</power>
+            <cooldownTime>0.5</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>ArchotechDeathClaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>AdvancedArchotechLeg</defName>
+    <label>advanced archotech leg</label>
+    <labelNoun>an advanced archotech leg</labelNoun>
+    <spawnThingOnRemoved>AdvancedArchotechLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>4</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>AdvancedArchotechArm</defName>
+    <label>advanced archotech arm</label>
+    <labelNoun>an advanced archotech arm</labelNoun>
+    <spawnThingOnRemoved>AdvancedArchotechArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>4</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechObliterator</defName>
+    <label>archotech obliterator</label>
+    <labelNoun>an archotech obliterator</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>5.0</power>
+            <cooldownTime>0.01</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>ArchotechObliterator</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

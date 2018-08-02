@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<TerrainDef Name="AttomachineBase" ParentName="FloorBase" Abstract = "True">
+    <defName>AttomachineryFloor</defName>
+    <label>attomachinery</label>
+    <renderPrecedence>242</renderPrecedence>
+    <description>Ultra clean flooring which looks absolutely stunning. This floor almost looks alive with it's amount of detail. Anyone would be in awe just from standing on a tile.</description>
+    <texturePath>Terrain/Surfaces/AttomachineFlooring</texturePath>
+    <statBases>
+      <Beauty>30</Beauty>
+      <WorkToBuild>800</WorkToBuild>
+      <Cleanliness>5</Cleanliness>
+    </statBases>
+    <costList>
+      <Attomachinery>40</Attomachinery>
+    </costList>
+	<designatorDropdown>Floor_Attomachine</designatorDropdown>
+    <constructEffect>ConstructMetal</constructEffect>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "AttomachineBase">
+	<defName>AttomachineryWood</defName>
+	<label>attowood</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Attomachines which have restructured and coloured themselves to the texture and colour of natural oak. It is virtually indistinguishable from wood, apart from the patterns.</description>
+    <color>(94,71,54)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "AttomachineBase">
+	<defName>AttomachineryRedCarpet</defName>
+	<label>red attocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Attomachines which have restructured and coloured themselves to the texture and colour of a rich red carpet. This carpet analogue seems to feel just like red shag carpet. It's perfectly lovable.</description>
+    <color>(118,49,57)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "AttomachineBase">
+	<defName>AttomachineryBlueCarpet</defName>
+	<label>blue attocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Attomachines which have restructured and coloured themselves to the texture and colour of a deep blue carpet. This carpet analogue feels like a shallow stream, perfect temperature. It leaves no residue or uncomfort.</description>
+    <color>(24,65,121)</color>
+  </TerrainDef>
+  
+   <TerrainDef ParentName= "AttomachineBase">
+	<defName>AttomachineryGreenCarpet</defName>
+	<label>green attocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Attomachines which have restructured and coloured themselves to the texture and colour of a mossy green carpet. This one feels like short, dense and lush grass on ones feet. For the nature head.</description>
+    <color>(89,105,62)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "AttomachineBase">
+	<defName>AttomachineryCreamCarpet</defName>
+	<label>cream attocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Attomachines which have restructured and coloured themselves to the texture and colour of a creamy white carpet. This one feels like walking through whipped cream, although it leaves no residue or smell that would state otherwise.</description>
+    <color>(195,192,176)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "AttomachineBase">
+	<defName>AttomachineryGrayCarpet</defName>
+	<label>gray attocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Attomachines which have restructured and coloured themselves to the texture and colour of a dark gray carpet. Surpisingly, this carpet analogue feels so neutral that one can't help but feel indifferent to it. It's not boring, just evidently professional.</description>
+    <color>(81,81,81)</color>
+  </TerrainDef>  
+ 
+ <TerrainDef ParentName= "AttomachineBase">
+	<defName>AttomachineryNaturalState</defName>
+	<label>natural attomachinery</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>The natural state of the attomachinery. With this deep green it seems to phase between a concrete analogue and a carpet.</description>
+    <color>(70,120,70)</color>
+  </TerrainDef>
+  
+   <TerrainDef ParentName= "AttomachineBase">
+	<defName>AttomachineryNaturalsoil</defName>
+	<label>attosoil</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>The Attomachines pull energy from the quantum foam in order to nutriate the plant beyond comprehension. It perfectly assembles itself in such a way that the plant is perfectly grown within no time at all.</description>
+    <color>(139,69,19)</color>
+	<affordances>
+      <li>GrowSoil</li>
+    </affordances>
+	<fertility>6</fertility>
+  </TerrainDef>
+  
+  <TerrainDef Name="PicomachineBase" ParentName="FloorBase" Abstract = "True">
+    <defName>PicomachineryFloor</defName>
+    <label>picomachinery</label>
+    <renderPrecedence>242</renderPrecedence>
+    <description>Ultra clean flooring which looks stunning. This floor almost looks alive with it's amount of detail. Anyone would be in awe just from standing on a tile.</description>
+    <texturePath>Terrain/Surfaces/PicomachineFlooring</texturePath>
+    <statBases>
+      <Beauty>25</Beauty>
+      <WorkToBuild>800</WorkToBuild>
+      <Cleanliness>4</Cleanliness>
+    </statBases>
+    <costList>
+      <Picomachinery>25</Picomachinery>
+    </costList>
+	<designatorDropdown>Floor_Picomachine</designatorDropdown>
+    <constructEffect>ConstructMetal</constructEffect>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "PicomachineBase">
+	<defName>PicomachineryWood</defName>
+	<label>picowood</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Picomachines which have restructured and coloured themselves to the texture and colour of natural mahogany. It is virtually indistinguishable from wood, apart from the patterns.</description>
+    <color>(160,82,45)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "PicomachineBase">
+	<defName>PicomachineryRedCarpet</defName>
+	<label>red picocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Picomachines which have restructured and coloured themselves to the texture and colour of a rich red carpet. This carpet analogue seems to feel just like red shag carpet. It's perfectly lovable.</description>
+    <color>(118,49,57)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "PicomachineBase">
+	<defName>PicomachineryBlueCarpet</defName>
+	<label>blue picocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Picomachines which have restructured and coloured themselves to the texture and colour of a deep blue carpet. This carpet analogue feels like a shallow stream, perfect temperature. It leaves no residue or uncomfort.</description>
+    <color>(24,65,121)</color>
+  </TerrainDef>
+  
+   <TerrainDef ParentName= "PicomachineBase">
+	<defName>PicomachineryGreenCarpet</defName>
+	<label>green picocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Picomachines which have restructured and coloured themselves to the texture and colour of a mossy green carpet. This one feels like short, dense and lush grass on ones feet. For the nature head.</description>
+    <color>(89,105,62)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "PicomachineBase">
+	<defName>PicomachineryCreamCarpet</defName>
+	<label>cream picocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Picomachines which have restructured and coloured themselves to the texture and colour of a creamy white carpet. This one feels like walking through whipped cream, although it leaves no residue or smell that would state otherwise.</description>
+    <color>(197,194,178)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "PicomachineBase">
+	<defName>PicomachineryGrayCarpet</defName>
+	<label>gray picocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Picomachines which have restructured and coloured themselves to the texture and colour of a dark gray carpet. Surpisingly, this carpet analogue feels so neutral that one can't help but feel indifferent to it. It's not boring, just evidently professional.</description>
+    <color>(80,80,80)</color>
+  </TerrainDef>  
+ 
+ <TerrainDef ParentName= "PicomachineBase">
+	<defName>PicomachineryNaturalState</defName>
+	<label>natural picomachinery</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>The natural state of the picomachinery. With this deep purple it seems to phase between a concrete analogue, carpet, and wood.</description>
+    <color>(148,0,211)</color>
+  </TerrainDef>
+  
+   <TerrainDef ParentName= "PicomachineBase">
+	<defName>PicomachineryNaturalsoil</defName>
+	<label>picosoil</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Picomachines which simulate the near perfect environment for any plant. It first scans the plant, finds out what it needs, and then provides it perfectly, allowing for perfect growth rates.</description>
+    <color>(139,69,19)</color>
+	<affordances>
+      <li>GrowSoil</li>
+    </affordances>
+	<fertility>3</fertility>
+  </TerrainDef>
+  
+  <TerrainDef Name="NanomachineBase" ParentName="FloorBase" Abstract = "True">
+    <defName>NanomachineryFloor</defName>
+    <label>nanomachinery</label>
+    <renderPrecedence>242</renderPrecedence>
+    <description>Ultra clean flooring which looks stunning. This floor almost looks alive with it's amount of detail. Anyone would be in awe just from standing on a tile.</description>
+    <texturePath>Terrain/Surfaces/NanomachineFlooring</texturePath>
+    <statBases>
+      <Beauty>20</Beauty>
+      <WorkToBuild>700</WorkToBuild>
+      <Cleanliness>3</Cleanliness>
+    </statBases>
+    <costList>
+      <Nanomachinery>15</Nanomachinery>
+    </costList>
+	<designatorDropdown>Floor_Nanomachine</designatorDropdown>
+    <constructEffect>ConstructMetal</constructEffect>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "NanomachineBase">
+	<defName>NanomachineryWood</defName>
+	<label>nanowood</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Nanomachines which have restructured and coloured themselves to the texture and colour of natural chestnut. It is virtually indistinguishable from wood, apart from the patterns.</description>
+    <color>(180,115,85)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "NanomachineBase">
+	<defName>NanomachineryRedCarpet</defName>
+	<label>red nanocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Nanomachines which have restructured and coloured themselves to the texture and colour of a rich red carpet. This carpet analogue seems to feel just like red shag carpet. It's perfectly lovable.</description>
+    <color>(114,45,53)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "NanomachineBase">
+	<defName>NanomachineryBlueCarpet</defName>
+	<label>blue nanocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Nanomachines which have restructured and coloured themselves to the texture and colour of a deep blue carpet. This carpet analogue feels like a shallow stream, perfect temperature. It leaves no residue or uncomfort.</description>
+    <color>(20,61,117)</color>
+  </TerrainDef>
+  
+   <TerrainDef ParentName= "NanomachineBase">
+	<defName>NanomachineryGreenCarpet</defName>
+	<label>green nanocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Nanomachines which have restructured and coloured themselves to the texture and colour of a mossy green carpet. This one feels like short, dense and lush grass on ones feet. For the nature head.</description>
+    <color>(85,101,58)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "NanomachineBase">
+	<defName>NanomachineryCreamCarpet</defName>
+	<label>cream nanocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Nanomachines which have restructured and coloured themselves to the texture and colour of a creamy white carpet. This one feels like walking through whipped cream, although it leaves no residue or smell that would state otherwise.</description>
+    <color>(193,190,174)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName= "NanomachineBase">
+	<defName>NanomachineryGrayCarpet</defName>
+	<label>gray nanocarpet</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>Nanomachines which have restructured and coloured themselves to the texture and colour of a dark gray carpet. Surpisingly, this carpet analogue feels so neutral that one can't help but feel indifferent to it. It's not boring, just evidently professional.</description>
+    <color>(76,76,76)</color>
+  </TerrainDef>  
+ 
+ <TerrainDef ParentName= "NanomachineBase">
+	<defName>NanomachineryNaturalState</defName>
+	<label>natural nanomachinery</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>The natural state of the nanomachinery. With this deep blue it seems to phase between a concrete analogue, carpet, and wood.</description>
+    <color>(50,60,110)</color>
+  </TerrainDef>
+  
+ <TerrainDef ParentName= "NanomachineBase">
+	<defName>NanomachineryNaturalsoil</defName>
+	<label>nanosoil</label>
+	<renderPrecedence>200</renderPrecedence>
+    <description>The nanomachines reconfigure themselves into a soil like analogue, while also simulating nutrients and certain trace elements perfect for growing. While not as good as Picosoil or Attosoil, it certainly is a step up from regular dirt.</description>
+    <color>(139,69,19)</color>
+	<affordances>
+      <li>GrowSoil</li>
+    </affordances>
+	<fertility>1.8</fertility>
+  </TerrainDef>
+  
+ </Defs>
