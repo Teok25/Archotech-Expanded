@@ -53,6 +53,26 @@
     </addedPartProps>
   </HediffDef>
   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechSpine</defName>
+    <label>archotech spine</label>
+    <labelNoun>an archotech spine</labelNoun>
+    <spawnThingOnRemoved>ArchotechSpine</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechPelvis</defName>
+    <label>archotech pelvis</label>
+    <labelNoun>an archotech pelvis</labelNoun>
+    <spawnThingOnRemoved>ArchotechPelvis</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
     <defName>ArchotechKidney</defName>
     <label>archotech kidney</label>
     <labelNoun>an archotech kidney</labelNoun>

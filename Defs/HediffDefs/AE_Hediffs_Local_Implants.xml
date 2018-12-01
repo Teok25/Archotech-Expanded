@@ -2,7 +2,7 @@
 <Defs>
   <!-- Implants -->
 
-  <HediffDef Name="ImplantHediffBase" Abstract="True">
+  <HediffDef ParentName="ImplantHediffBase" Abstract ="True">
     <hediffClass>Hediff_Implant</hediffClass>
     <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
     <isBad>false</isBad>

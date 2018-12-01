@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ResearchProjectDef>
+    <defName>ArchotechMimicry</defName>
+    <label>archotech mimicry</label>
+    <description>Using the most ground breaking techniques known to both glitterworlds and independant mad scientists, lowly humans are able to create the small nanomachines, and form basic structures from them.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Archotech</techLevel>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>14</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+</Defs>
+  

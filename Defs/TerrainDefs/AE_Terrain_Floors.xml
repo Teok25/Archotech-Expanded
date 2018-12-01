@@ -17,6 +17,9 @@
 	<designatorDropdown>Floor_Attomachine</designatorDropdown>
     <constructEffect>ConstructMetal</constructEffect>
     <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	<researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
   </TerrainDef>
   
   <TerrainDef ParentName= "AttomachineBase">
@@ -85,6 +88,9 @@
       <li>GrowSoil</li>
     </affordances>
 	<fertility>6</fertility>
+	<researchPrerequisites>
+      <li>TreeSowing</li>
+    </researchPrerequisites>
   </TerrainDef>
   
   <TerrainDef Name="PicomachineBase" ParentName="FloorBase" Abstract = "True">
@@ -104,6 +110,9 @@
 	<designatorDropdown>Floor_Picomachine</designatorDropdown>
     <constructEffect>ConstructMetal</constructEffect>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	<researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
   </TerrainDef>
   
   <TerrainDef ParentName= "PicomachineBase">
@@ -172,6 +181,9 @@
       <li>GrowSoil</li>
     </affordances>
 	<fertility>3</fertility>
+	<researchPrerequisites>
+      <li>TreeSowing</li>
+    </researchPrerequisites>
   </TerrainDef>
   
   <TerrainDef Name="NanomachineBase" ParentName="FloorBase" Abstract = "True">
@@ -191,6 +203,9 @@
 	<designatorDropdown>Floor_Nanomachine</designatorDropdown>
     <constructEffect>ConstructMetal</constructEffect>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	<researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
   </TerrainDef>
   
   <TerrainDef ParentName= "NanomachineBase">
@@ -259,6 +274,9 @@
       <li>GrowSoil</li>
     </affordances>
 	<fertility>1.8</fertility>
+	<researchPrerequisites>
+      <li>TreeSowing</li>
+    </researchPrerequisites>
   </TerrainDef>
   
  </Defs>

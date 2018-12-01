@@ -15,7 +15,21 @@
     <statBases>
       <MarketValue>8000</MarketValue>
       <Mass>0.2</Mass>
+	  <WorkToMake>10000</WorkToMake>
     </statBases>
+	<recipeMaker>
+		<skillRequirements>
+			<Crafting>17</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>ArchotechMimicry</researchPrerequisite>
+		<recipeUsers>
+			<li>BasicArchotechWorkbench</li>
+		</recipeUsers>
+	</recipeMaker>
+	<costList>
+      <Attomachinery>20</Attomachinery>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
     <techHediffsTags>
       <li>Archotech</li>
     </techHediffsTags>

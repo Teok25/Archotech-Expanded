@@ -1,166 +1,189 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ThingDef ParentName="BodyPartArchotechBase">
-    <defName>ArchotechDenture</defName>
+<ThingDef Name="ArchoPartNormal" ParentName="BodyPartArchotechBase" Abstract="True">
+	<techLevel>Archotech</techLevel>
+	<statBases>
+		<MarketValue>2800</MarketValue>
+		<Mass>0.3</Mass>
+		<ArmorRating_Sharp>1</ArmorRating_Sharp>
+		<ArmorRating_Blunt>1</ArmorRating_Blunt>
+		<WorkToMake>5000</WorkToMake>
+    </statBases>
+	<recipeMaker>
+		<skillRequirements>
+			<Crafting>15</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>ArchotechMimicry</researchPrerequisite>
+		<recipeUsers>
+			<li>BasicArchotechWorkbench</li>
+		</recipeUsers>
+		
+	</recipeMaker>
+</ThingDef>
+
+<ThingDef Name="ArchoPartAdvanced" ParentName="BodyPartArchotechBase" Abstract="True">
+<techLevel>Archotech</techLevel>
+<statBases>
+  <MarketValue>20000</MarketValue>
+  <Mass>0.2</Mass>
+  <ArmorRating_Sharp>5</ArmorRating_Sharp>
+  <ArmorRating_Blunt>5</ArmorRating_Blunt>
+  <WorkToMake>10000</WorkToMake>
+    </statBases>
+	<recipeMaker>
+	<skillRequirements>
+	<Crafting>17</Crafting>
+	</skillRequirements>
+	<researchPrerequisite>ArchotechMimicry</researchPrerequisite>
+	<recipeUsers>
+        <li>BasicArchotechWorkbench</li>
+      </recipeUsers>
+	</recipeMaker>
+	
+</ThingDef>
+
+
+
+<ThingDef ParentName="ArchoPartNormal">
+	<defName>ArchotechDenture</defName>
     <label>archotech denture</label>
     <description>An artifical denture built by an archotech. Once installed in someone's mouth, it rapidly covers the other teeth until fully covered. It allows its user to change their voice at will, along with giving it's user the ability to translate any language perfectly. Its internal workings are a mystery to all human minds.</description>
-    <techLevel>Archotech</techLevel>
-    <thingSetMakerTags>
-      <li>RewardSpecial</li>
-    </thingSetMakerTags>
-    <statBases>
-      <MarketValue>2800</MarketValue>
-      <Mass>0.3</Mass>
-    </statBases>
-  </ThingDef>
-  <ThingDef ParentName="BodyPartArchotechBase">
-    <defName>ArchotechHeart</defName>
+	<costList>
+      <Nanomachinery>10</Nanomachinery>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+</ThingDef>
+
+<ThingDef ParentName="ArchoPartNormal">
+	<defName>ArchotechHeart</defName>
     <label>archotech heart</label>
-    <description>An artificial heart built by an archotech. It's user has the blood pumping ability of a god. Its internal workings are a mystery to all human minds.</description>
-    <techLevel>Archotech</techLevel>
-    <thingSetMakerTags>
-      <li>RewardSpecial</li>
-    </thingSetMakerTags>
-    <statBases>
-      <MarketValue>2800</MarketValue>
-      <Mass>0.3</Mass>
-	  <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	  <ArmorRating_Blunt>1</ArmorRating_Blunt>
-    </statBases>
-  </ThingDef>
-  <ThingDef ParentName="BodyPartArchotechBase">
-    <defName>ArchotechLung</defName>
+    <description>An artificial heart built by an archotech. Rather than pumping, the circulation of blood is a constant flow, releasing small nanomachines into the blood when needed. These small machines check for cholesterol, and other harmful things in arteries and capillaries, and metabolizes them into new nanomachinery, or into waste. Its internal workings are a mystery to all human minds.</description>
+	<costList>
+      <Picomachinery>14</Picomachinery>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+</ThingDef>
+
+<ThingDef ParentName="ArchoPartNormal">
+	<defName>ArchotechLung</defName>
     <label>archotech lung</label>
-    <description>An artificial lung built by an archotech. It's user will never lose in a breath holding competition. Its internal workings are a mystery to all human minds.</description>
-    <techLevel>Archotech</techLevel>
-    <thingSetMakerTags>
-      <li>RewardSpecial</li>
-    </thingSetMakerTags>
-    <statBases>
-      <MarketValue>2800</MarketValue>
-      <Mass>0.3</Mass>
-	  <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	  <ArmorRating_Blunt>1</ArmorRating_Blunt>
-    </statBases>
-  </ThingDef>
-  <ThingDef ParentName="BodyPartArchotechBase">
-    <defName>ArchotechStomach</defName>
+    <description>An artificial lung built by an archotech. The optimization of respiration allows for even the smallest of breaths to last minutes. Its internal workings are a mystery to all human minds.</description>
+	<costList>
+      <Picomachinery>7</Picomachinery>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+</ThingDef>
+
+<ThingDef ParentName="ArchoPartNormal">
+	<defName>ArchotechStomach</defName>
     <label>archotech stomach</label>
-    <description>An artificial stomach built by an archotech. It's user has the perfect digestion system. Its internal workings are a mystery to all human minds.</description>
-    <techLevel>Archotech</techLevel>
-    <thingSetMakerTags>
-      <li>RewardSpecial</li>
-    </thingSetMakerTags>
-    <statBases>
-      <MarketValue>2800</MarketValue>
-      <Mass>0.3</Mass>
-	  <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	  <ArmorRating_Blunt>1</ArmorRating_Blunt>
-    </statBases>
-	  </ThingDef>
-	<ThingDef ParentName="BodyPartArchotechBase">
-    <defName>ArchotechLiver</defName>
+    <description>An artificial stomach built by an archotech. It's host is capable of eating as little, or as much as they want, as nutrition is automatically cared for by the stomach. It has full awareness of what it's host needs, from vitamins to minerals, and psychicly communicates this to them. Its internal workings are a mystery to all human minds.</description>
+	<costList>
+      <Picomachinery>12</Picomachinery>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+</ThingDef>
+
+<ThingDef ParentName="ArchoPartNormal">
+	<defName>ArchotechLiver</defName>
     <label>archotech liver</label>
-    <description>An artificial liver built by an archotech. it's user is able to metabolize pretty much anything. Its internal workings are a mystery to all human minds.</description>
-    <techLevel>Archotech</techLevel>
-    <thingSetMakerTags>
-      <li>RewardSpecial</li>
-    </thingSetMakerTags>
-    <statBases>
-      <MarketValue>2800</MarketValue>
-      <Mass>0.3</Mass>
-	  <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	  <ArmorRating_Blunt>1</ArmorRating_Blunt>
-    </statBases>
-	</ThingDef>
-	<ThingDef ParentName="BodyPartArchotechBase">
-    <defName>ArchotechKidney</defName>
+    <description>An artificial liver built by an archotech. It's user is able to metabolize pretty much anything, from being able to drink pure grain alcohol to metabolizing the most harmful of drugs. Its internal workings are a mystery to all human minds.</description>
+	<costList>
+      <Picomachinery>10</Picomachinery>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+</ThingDef>
+
+<ThingDef ParentName="ArchoPartNormal">
+	<defName>ArchotechKidney</defName>
     <label>archotech kidney</label>
-    <description>An artificial kidney built by an archotech. Once installed, its user has hightened blood filtration to the extreme. Its internal workings are a mystery to all human minds.</description>
-    <techLevel>Archotech</techLevel>
-    <thingSetMakerTags>
-      <li>RewardSpecial</li>
-    </thingSetMakerTags>
-    <statBases>
-      <MarketValue>2800</MarketValue>
-      <Mass>0.3</Mass>
-	  <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	  <ArmorRating_Blunt>1</ArmorRating_Blunt>
-    </statBases>
+    <description>An artificial kidney built by an archotech. It's capability to filter waste and extra water from the host's blood is so efficient that there's hardly any waste at all, instead being converted into useful antibodies and vitamins. Its internal workings are a mystery to all human minds.</description>
+	<costList>
+      <Picomachinery>5</Picomachinery>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+</ThingDef>
+
+<ThingDef ParentName="ArchoPartNormal">
+    <defName>ArchotechPelvis</defName>
+    <label>archotech pelvis</label>
+    <description>An artificial pelvis built by an archotech. It doesn't do much, but allows for some improvements to the host, along with armor. Its workings are a mystery to all human minds.</description>
+    <costList>
+      <Picomachinery>2</Picomachinery>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
   </ThingDef>
-  <ThingDef ParentName="BodyPartArchotechBase">
-    <defName>ArchotechEar</defName>
+
+<ThingDef ParentName="ArchoPartNormal">
+	<defName>ArchotechEar</defName>
     <label>archotech ear</label>
-    <description>An artificial ear built by an archotech. Once installed at the base of the ear, It's user is able to hear for miles ahead with no loss of quality, allowing them perfect hearing. Its internal workings are a mystery to all human minds.</description>
-    <techLevel>Archotech</techLevel>
-    <thingSetMakerTags>
-      <li>RewardSpecial</li>
-    </thingSetMakerTags>
-    <statBases>
-      <MarketValue>2800</MarketValue>
-      <Mass>0.3</Mass>
-	  <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	  <ArmorRating_Blunt>1</ArmorRating_Blunt>
-    </statBases>
-	</ThingDef>
-	<ThingDef ParentName="BodyPartArchotechBase">
-    <defName>ArchotechDeathClaw</defName>
+    <description>An artificial ear built by an archotech. Once installed at the base of the ear, It's user is able to hear for miles ahead with no loss of quality, allowing them to hear the wingbeats of a fly from miles away if they so wish. Its internal workings are a mystery to all human minds.</description>
+	<costList>
+      <Picomachinery>3</Picomachinery>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+</ThingDef>
+
+<ThingDef ParentName="ArchoPartNormal">
+	<defName>ArchotechSpine</defName>
+    <label>archotech spine</label>
+    <description>An artificial spine built by an archotech. Each individual disc and sector on the spine interacts with the will of it's host, and proceeds to adjust itself for optimal posture. With the spine in the host's back, they can run a full marathon with more than 12 books balanced on top of their heads. Its internal workings are a mystery to all human minds</description>
+	<costList>
+      <Picomachinery>5</Picomachinery>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+</ThingDef>
+
+<ThingDef ParentName="ArchoPartAdvanced">
+	<defName>ArchotechDeathClaw</defName>
     <label>archotech death claw</label>
-    <description>An artificial death machine built by an archotech. Once installed, suddenly enemies can't stop screaming. With this sudden power you could tear down nations, or villages. Its internal workings are a mystery to all human minds.</description>
-    <techLevel>Archotech</techLevel>
-    <thingSetMakerTags>
-      <li>RewardSpecial</li>
-    </thingSetMakerTags>
-    <statBases>
-      <MarketValue>20000</MarketValue>
-      <Mass>0.4</Mass>
-	  <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	  <ArmorRating_Blunt>1</ArmorRating_Blunt>
-    </statBases>
-	</ThingDef>
-	<ThingDef ParentName="BodyPartArchotechBase">
+    <description>An artificial arm built by an archotech. From the arm pertrudes giant spikes and claws which lash out and serrate anything that comes too close. Its internal workings are a mystery to all human minds.</description>
+	<costList>
+      <Attomachinery>60</Attomachinery>
+	  <Picomachinery>20</Picomachinery>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+	<thingSetMakerTags>
+	<li>RewardSpecial</li>
+</thingSetMakerTags>
+</ThingDef> 
+
+<ThingDef ParentName="ArchoPartAdvanced">
 	<defName>AdvancedArchotechLeg</defName>
     <label>advanced archotech leg</label>
-    <description>An advanced version of the archotech's artificial leg. It somehow makes you faster than an aircraft. Gotta go fast. Its internal workings are a mystery to all human minds.</description>
-    <techLevel>Archotech</techLevel>
-    <thingSetMakerTags>
-      <li>RewardSpecial</li>
-    </thingSetMakerTags>
-    <statBases>
-      <MarketValue>20000</MarketValue>
-      <Mass>0.4</Mass>
-	  <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	  <ArmorRating_Blunt>1</ArmorRating_Blunt>
-	 </statBases>
-  </ThingDef>
-	<ThingDef ParentName="BodyPartArchotechBase">
+    <description>An advanced version of the archotech's artificial leg. It allows you to run faster than some hedgehogs. Its internal workings are a mystery to all human minds.</description>
+	<costList>
+      <Attomachinery>10</Attomachinery>
+	  <Picomachinery>20</Picomachinery>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+	<thingSetMakerTags>
+	<li>RewardSpecial</li>
+</thingSetMakerTags>
+</ThingDef>
+
+<ThingDef ParentName="ArchoPartAdvanced">
 	<defName>AdvancedArchotechArm</defName>
     <label>advanced archotech arm</label>
-    <description>An advanced version of the archotech's artificial arm. It somehow makes you manipulate faster than an aircraft. Gotta go fast. Its internal workings are a mystery to all human minds.</description>
-    <techLevel>Archotech</techLevel>
-    <thingSetMakerTags>
-      <li>RewardSpecial</li>
-    </thingSetMakerTags>
-    <statBases>
-      <MarketValue>20000</MarketValue>
-      <Mass>0.4</Mass>
-	  <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	  <ArmorRating_Blunt>1</ArmorRating_Blunt>
-	 </statBases>
-  </ThingDef>
-  <ThingDef ParentName="BodyPartArchotechBase">
-    <defName>ArchotechObliterator</defName>
+    <description>An advanced version of the archotech's artificial arm. It looks the same, but studies on glitterworlds have proven the arm to be sentient. This added feature allows the arm to make quick descisions a human brain couldn't possibly make. Its internal workings are a mystery to all human minds.</description>
+	<costList>
+      <Attomachinery>12</Attomachinery>
+	  <Picomachinery>25</Picomachinery>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+	<thingSetMakerTags>
+	<li>RewardSpecial</li>
+</thingSetMakerTags>
+</ThingDef>
+
+<ThingDef ParentName="ArchoPartAdvanced">
+	<defName>ArchotechObliterator</defName>
     <label>archotech obliterator</label>
-    <description>An artificial death machine built by an archotech. Once installed, suddenly enemies can't stop screaming. With this sudden power you could tear down nations, or villages. Its internal workings are a mystery to all human minds.</description>
-    <techLevel>Archotech</techLevel>
-    <thingSetMakerTags>
-      <li>RewardSpecial</li>
-    </thingSetMakerTags>
-    <statBases>
-      <MarketValue>21000</MarketValue>
-      <Mass>0.4</Mass>
-	  <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	  <ArmorRating_Blunt>1</ArmorRating_Blunt>
-    </statBases>
-    </ThingDef>
-  </Defs>
+    <description>An artificial arm which employs all the benefits of a normal archotech arm, but includes new melee combat features based around attrition and enemy capture. With extremely fast servos the fist is able to extend and retract at remarkable speeds, causing a minature shockwave to form infront of the fist, usually knocking enemies unconcious. Its internal workings are a mystery to all human minds.</description>
+	<costList>
+      <Attomachinery>100</Attomachinery>
+	  <Picomachinery>5</Picomachinery>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+</ThingDef>
+</Defs>
